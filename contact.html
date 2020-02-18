@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+</html>
+<body>
+    <h1>Contact Page</h1>
+    <form action="submit.php" method="POST">
+        <label for="first-name">
+            First name 
+            <input type="first name" name="first name"
+            placeholder="Josh">
+        </label>
+        <label for="your email">
+            E-mail Address
+            <input type="email" name="your-email"
+            placeholder="your email">
+        </label>
+        <label for="subscribe">
+            <input type="checkbox" name="subscribe">
+            i'd like to recieve e-mail newsletters
+            and I have read the 
+            <a href="#">
+                Terms of Service.
+            </a>
+        </label>
+        <label for="date-picker">
+            Pick a Date
+            <input type="date" name="date-picker">
+    </label>
+    <label for="category">
+        Pick a category
+        <select name="category">
+            <option value="horror">Horror</option>
+            <option value="documentary"></option>
+            <option vaue="comedy"></option>
+        </select>
+        </label>
+        <label>
+            <input type="radio" name="time-of-day" value="morning">Morning
+        </label>
+        <label>
+            <input type="radio" name="time-of-day" value="afternoon">Afternoon
+        </label>
+        <label>
+            <input type="radio" name="time-of-day" value="evening">Evening
+        </label>
+
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
